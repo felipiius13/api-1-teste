@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { styles } from './PixPage';
 
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = 'http://PLACEHOLDER_RENDER_API';
 
 const Register = () => {
   const [email, setEmail] = useState('');
